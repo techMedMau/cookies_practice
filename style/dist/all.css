@@ -1,0 +1,54 @@
+@charset "UTF-8";
+* {
+  font-family: "微軟正黑體", sans-serif;
+  box-sizing: border-box;
+}
+
+.setting {
+  background-color: #eee;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.base {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.mb_reset {
+  margin-bottom: 0;
+}
+
+.imgs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_inner1,
+.img_inner2,
+.img_inner3,
+.img_inner4 {
+  max-width: 23%;
+}
+
+.img_resp {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.5rem;
+}
